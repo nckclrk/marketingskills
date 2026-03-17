@@ -1,0 +1,109 @@
+[
+  {
+    "id": "cr-001",
+    "prompt": "I have 20 customer interview transcripts. Help me analyze them.",
+    "expected_skill": "customer-research",
+    "assertions": [
+      "Asks about the goal before diving in (improve messaging, build personas, find gaps, etc.)",
+      "Mentions extracting jobs to be done, pain points, and desired outcomes",
+      "Suggests organizing quotes by theme",
+      "References frequency and intensity scoring"
+    ]
+  },
+  {
+    "id": "cr-002",
+    "prompt": "I want to do ICP research but I don't have any customer interviews yet.",
+    "expected_skill": "customer-research",
+    "assertions": [
+      "Recommends digital watering hole research as an alternative",
+      "Mentions Reddit, G2, or review sites as starting points",
+      "Offers to help extract insights from online sources"
+    ]
+  },
+  {
+    "id": "cr-003",
+    "prompt": "Mine Reddit and G2 to understand what people hate about project management software.",
+    "expected_skill": "customer-research",
+    "assertions": [
+      "Identifies relevant subreddits or search strategies for project management",
+      "Suggests reading 3-star and 1-star G2 reviews",
+      "Plans to extract verbatim quotes and pain themes",
+      "Mentions what to look for: complaints, workarounds, switching triggers"
+    ]
+  },
+  {
+    "id": "cr-004",
+    "prompt": "Build me a customer persona for a marketing manager at a B2B SaaS company.",
+    "expected_skill": "customer-research",
+    "assertions": [
+      "Asks if there is existing research to build from before inventing details",
+      "Warns against creating personas without data",
+      "Includes jobs to be done, pains, triggers, and desired outcomes in persona structure",
+      "Mentions the need to capture actual customer vocabulary"
+    ]
+  },
+  {
+    "id": "cr-005",
+    "prompt": "I have 6 months of customer support tickets. What insights can I pull from them?",
+    "expected_skill": "customer-research",
+    "assertions": [
+      "Recommends categorizing tickets before analyzing (bugs vs confusion vs feature requests)",
+      "Suggests separating different churn/complaint causes",
+      "Mentions extracting recurring language and patterns",
+      "Asks about the goal — product improvement, messaging, or something else"
+    ]
+  },
+  {
+    "id": "cr-006",
+    "prompt": "What are customers saying about my competitors on review sites?",
+    "expected_skill": "customer-research",
+    "assertions": [
+      "Recommends reading competitor 4-star reviews specifically for buried complaints",
+      "Mentions G2 or Capterra as sources",
+      "Describes what to extract: what they love, what frustrates them, unmet needs",
+      "Frames as competitive intelligence input"
+    ]
+  },
+  {
+    "id": "cr-007",
+    "prompt": "Help me do voice of customer research for a new SaaS in the HR space.",
+    "expected_skill": "customer-research",
+    "assertions": [
+      "Asks about target ICP segment within HR",
+      "Suggests relevant digital watering holes (subreddits, G2 categories, communities)",
+      "Plans to extract verbatim language for copy use",
+      "Mentions organizing findings into a VOC quote bank"
+    ]
+  },
+  {
+    "id": "cr-008",
+    "prompt": "I want to understand why customers churn. I have exit survey results.",
+    "expected_skill": "customer-research",
+    "assertions": [
+      "Recommends segmenting churn reasons before analyzing",
+      "Warns against averaging across different churn causes",
+      "Suggests pairing open-ended responses with quantitative data",
+      "Asks if win/loss interview data is also available"
+    ]
+  },
+  {
+    "id": "cr-009",
+    "prompt": "Find the digital watering holes where DevOps engineers talk shop.",
+    "expected_skill": "customer-research",
+    "assertions": [
+      "Mentions specific relevant communities (r/devops, Hacker News, LinkedIn, Discord)",
+      "Suggests what to search for in those communities",
+      "Describes what signal to extract from each source type"
+    ]
+  },
+  {
+    "id": "cr-010",
+    "prompt": "Turn my customer research into messaging I can use on my homepage.",
+    "expected_skill": "customer-research",
+    "assertions": [
+      "Extracts the VOC language and themes first before jumping to copy",
+      "Identifies the highest-signal quotes for messaging",
+      "May reference the copywriting skill for the actual copy writing step"
+    ]
+  }
+]
